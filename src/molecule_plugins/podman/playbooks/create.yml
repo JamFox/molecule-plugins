@@ -32,7 +32,6 @@
         - item.registry.credentials is defined
         - item.registry.credentials.username is defined
       changed_when: false
-      no_log: true
 
     - name: Check presence of custom Dockerfiles
       ansible.builtin.stat:
